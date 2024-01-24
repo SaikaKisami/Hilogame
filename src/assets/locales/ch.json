@@ -1,0 +1,93 @@
+{
+  "en": "英",
+  "ch": "汉",
+  "betAmount": "投注额",
+  "skipcard": "跳过",
+  "betbtn": "投注",
+  "profithigher": "选择“大于或等于”的利润",
+  "profitlower": "选择“小于或等于”的利润",
+  "totalprofit": "总利润",
+  "higherorsame": "大于或等于",
+  "lowerorsame": "小于或等于",
+  "higher": "大于",
+  "same": "相等于",
+  "lower": "小于",
+  "higheror": "Higher or",
+  "loweror": "Lower or",
+  "cashout": "兑现",
+  "fairness": {
+    "title": "公平性",
+    "seed": {
+      "title": "种子",
+      "client": "活跃客户端种子",
+      "server": "活跃服务器种子（散列化)",
+      "pair": "种子配对的投注次数",
+      "rotate": "轮换种子配对",
+      "new": "新客户端种子",
+      "next": "下一个服务器种子（散列化)",
+      "footer": "您必须完成以下游戏才能轮换种子配对: ",
+      "change": "更换"
+    },
+    "verify": {
+      "title": "验证",
+      "loading": "需要更多输入才能验证结果",
+      "game": "游戏",
+      "client": "客户端种子",
+      "server": "服务端种子",
+      "nonce": "现实标志",
+      "footer": "查看计算细目"
+    },
+    "copied": "成功复制！"
+  },
+  "tooltip": {
+    "setting": "游戏设置",
+    "theatre": "启用剧院模式",
+    "status": "打开实时统计",
+    "favour": "青睐",
+    "unfavour": "不喜欢"
+  },
+  "setting": {
+    "instantBet": "即时下注",
+    "animations": "动画",
+    "maxBet": "最大投注额",
+    "gameInfo": "游戏信息",
+    "hotKeys": "快捷键"
+  },
+  "maxModal": {
+    "title": "最大投注额",
+    "description": "您确定要启用最大投注额按钮吗?",
+    "enable": "开启"
+  },
+  "infoModal": {
+    "title": "游戏信息",
+    "rules": "游戏规则",
+    "rule1": "1.配置模式将通过风险和乘数来决定不同的潜在支付额。",
+    "rule2": "2.请勿在游戏进行时转动您的设备或显示屏来逆重力。"
+  },
+  "hotkey": {
+    "title": "快捷键",
+    "makeBet": "下注",
+    "doubleBetAmt": "加倍投注额",
+    "halveBetAmt": "减半投注额",
+    "zeroBetAmt": "零数投注额",
+    "higherorsame": "大于或等于",
+    "lowerorsame": "小于或等于",
+    "skipcard": "跳过",
+    "cashout": "兑现",
+    "description": "快捷键一旦启用后将会影响所有游戏至禁用为止。虽然部分游戏的绑定键相同，还是建议您确认不同游戏的锁定按键交互之后再使用。",
+    "enable": "启用快捷键"
+  },
+  "liveStatus": {
+    "title": "实时统计",
+    "type": {
+      "all": "全部",
+      "bets": "投注",
+      "race": "竞赛",
+      "hide": "隐藏"
+    },
+    "profit": "利润",
+    "wagered": "总投注额",
+    "wins": "赢",
+    "losses": "输"
+  }
+}

@@ -1,0 +1,169 @@
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #304554;
+    border-radius: 10px;
+}
+
+button {
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    cursor: pointer;
+}
+
+.push-effect>*:active,
+button:active>* {
+    transform: scale(0.95);
+}
+
+select {
+    appearance: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #0F212E;
+    border: solid 2px #304554;
+    background-image: url(/icons/IconArrow.svg);
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+select:hover {
+    border-color: #557086;
+}
+
+select:focus {
+    outline: 0;
+}
+
+input {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    padding: 7px;
+    border: solid 2px #2F4552;
+    font-family: 'Proxima Nova';
+    transition: all;
+}
+
+input:hover {
+    border-color: #557086;
+}
+
+input:focus {
+    outline: 0;
+    border-color: #557086;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    height: 22px;
+    margin-right: 25px;
+}
+
+.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.btn-gray {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+    height: 5vh;
+    background-color: #304554;
+    border-radius: 0.3rem;
+    font-size: 1.6vh;
+}
+
+.btn-gray:hover {
+    background-color: #557086;
+}
+
+.btn-green {
+    background-color: #00E701;
+    width: 100%;
+    height: 5vh;
+    border-radius: 0.3rem;
+    color: #071824;
+    font-weight: bold;
+    font-size: 1.6vh;
+}
+
+.btn-green:hover {
+    background-color: #1fff20;
+}
+
+.hover-input {
+    border-color: #557086 !important;
+}
+
+div.input-field {
+    position: relative;
+    flex-grow: 1;
+    width: 100%;
+    height: 40px;
+    display: flex;
+}
+
+div.input-field>img {
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    transform: translateY(-50%);
+}
+
+div.input-field>input {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    background-color: #0F212E;
+    border: solid 2px #2F4552;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    padding: 8px;
+    transition: all;
+}
+
+div.input-field>input:hover {
+    border-color: #557086;
+}
+
+.web-element {
+    display: none;
+}
+
+.svg-btn {
+    color: #B1BAD3;
+    cursor: pointer;
+}
+
+.svg-btn:hover {
+    color: white;
+}
+
+.required {
+    color: #E54161;
+    margin-left: 8px;
+}
+
+.custom-shadow {
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+@media screen and (min-width: 922px) {
+    .web-element {
+        display: flex;
+    }
+}

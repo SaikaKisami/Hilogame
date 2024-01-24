@@ -1,0 +1,85 @@
+.sidebar {
+    width: 94vw;
+    max-width: 400px;
+    min-width: 300px;
+    background-color: #213743;
+    border-radius: 0;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.label-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.currency {
+    font-size: 12px;
+}
+
+.amount-input {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    border: 0px;
+    box-sizing: border-box;
+    background-color: #2F4552;
+    border-radius: 4px;
+}
+
+div.button-field {
+    display: inline-flex;
+}
+
+div.button-field>button {
+    -webkit-appearance: none;
+    appearance: none;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: #2F4552;
+    color: white;
+    font-weight: 600;
+    align-items: center;
+    border-radius: 0;
+}
+
+div.button-field>button:hover {
+    background-color: #557086;
+}
+
+div.button-field>button.not-allowed:hover {
+    background-color: #2F4552;
+}
+div.button-field>button:last-child {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    white-space: nowrap;
+}
+
+div.button-field>button:not(:first-child) {
+    position: relative;
+}
+
+div.button-field>button:not(:first-child)::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    width: 2px;
+    height: 25px;
+    background-color: #1A2C37;
+    transform: translateY(-50%);
+    margin-left: -1px;
+}
+
+@media screen and (min-width: 922px) {
+    .sidebar {
+        width: 300px;
+        min-width: 300px;
+        max-width: 300px;
+        border-radius: 8px 0px 0px 0px;
+    }
+}

@@ -1,0 +1,322 @@
+.refresh {
+    color: #B1BAD3;
+}
+
+.refresh:hover {
+    color: white;
+}
+
+.selected {
+    color: #1475E1 !important;
+}
+
+.selected:hover {
+    background-color: white !important;
+}
+
+.stats {
+    position: fixed;
+    width: 280px;
+    box-shadow: 0 53px 53px #00000009;
+    z-index: 9;
+}
+
+.stats-header {
+    background-color: #1A2C37;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 8px 16px;
+    cursor: move;
+}
+
+.stats-title {
+    display: flex;
+}
+
+.stats-body-header>img {
+    margin-right: 10px;
+}
+
+.title {
+    color: white;
+    font-family: 'PingFang SC';
+    font-size: 14px !important;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+svg {
+    cursor: pointer;
+}
+
+.stats-body {
+    padding: 12px 16px;
+    background-color: #213743;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.stats-body>div:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.stats-body>div:first-child>select {
+    width: 74px;
+    height: 40px;
+    background-color: #0F212E;
+    color: white;
+    border-radius: 4px;
+    border: 0px;
+    padding-left: 12px;
+}
+
+.stats-body>div:first-child img {
+    cursor: pointer;
+}
+
+.stats-body>select {
+    width: 100%;
+    height: 40px;
+    background-color: #0F212E;
+    color: white;
+    border-radius: 4px;
+    border: 0px;
+    margin-top: 16px;
+    margin-bottom: 13px;
+    padding-left: 12px;
+}
+
+.stats-body>div:nth-child(3) {
+    padding: 15px 16px;
+    background-color: #0F212E;
+    border-radius: 4px;
+    display: flex;
+}
+
+.stats-body>div:nth-child(3)>div:first-child {
+    width: 60%;
+}
+
+.stats-body>div:nth-child(3)>div:last-child {
+    width: 40%;
+}
+
+.stats-body>div:nth-child(3) span {
+    margin-left: 5px;
+}
+
+.stats-body>div:nth-child(3)>div:last-child {
+    border-left: solid 2px #213743;
+    padding-left: 18px;
+}
+
+.stats-body>div:nth-child(3)>div>p:nth-child(odd) {
+    color: #B1BAD3;
+}
+
+.stats-body>div:nth-child(3)>div>div {
+    display: flex;
+    align-items: center;
+}
+
+.profit,
+.wins {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.graph-wrap {
+    width: 100%;
+    height: 220px;
+    background-color: #0F212E;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.graph-profit {
+    display: flex;
+    gap: 5px;
+    visibility: hidden;
+}
+
+.graph {
+    width: 100%;
+    height: 100%;
+    border-bottom: solid 1px #4B5259;
+    position: relative;
+}
+
+.graph::after {
+    display: none;
+    content: "";
+    width: 16px;
+    height: 16px;
+    border-radius: 16px;
+    background-color: white;
+    position: absolute;
+    top: 95%;
+    left: var(--position, 0);
+}
+
+.graph:hover::after {
+    display: block;
+}
+
+.graph:hover .graph-profit {
+    visibility: visible;
+}
+
+.stats-type {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: fit-content;
+    height: 40px;
+    background-color: #0F212E;
+    border-radius: 4px;
+    padding: 4px 12px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.stats-type:hover {
+    background-color: #0b1822;
+}
+
+.popup {
+    background-color: white;
+    color: #2F4553;
+    font-weight: 600 !important;
+    font-size: 14px;
+    text-align: left;
+    border-radius: 4px;
+    position: absolute;
+    z-index: 1;
+    top: 125%;
+}
+
+.popup::before {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+}
+
+.popup>div {
+    padding: 8px 12px;
+    font-family: 'PingFang SC';
+    font-size: 14px;
+    font-weight: 600;
+    color: #2F4553
+}
+
+.popup>div:first-child {
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+.popup>div:last-child {
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.popup>div:hover {
+    background-color: #B1BAD3;
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+.stats-game {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    width: 100%;
+    height: 40px;
+    background-color: #0F212E;
+    border-radius: 4px;
+    padding: 4px 12px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.stats-game:hover {
+    background-color: #0b1822;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+    background-color: #0F212E;
+    border-radius: 4px;
+}
+
+.card .ping-sm-boldW {
+    justify-content: flex-start;
+}
+
+.wager {
+    padding: 16px;
+    min-height: 93px;
+    align-items: center;
+    justify-content: center;
+}
+
+.race {
+    width: fit-content;
+    height: 18px;
+    user-select: none;
+}
+
+.race:hover {
+    border-radius: 12px;
+    background-color: #0b1822;
+    cursor: pointer;
+}
+
+.tooltiptext {
+    background-color: white;
+    color: #1475E1;
+    font-family: 'PingFang Sc';
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 6px;
+    padding: 5px 12px;
+    position: absolute;
+    z-index: 1;
+    top: 150%;
+    left: 27%;
+    margin-left: -60px;
+    white-space: nowrap;
+}
+
+.tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+}

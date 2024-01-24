@@ -1,0 +1,26 @@
+@import './base.css';
+@import './global.css';
+@import './modal.css';
+@import './font.css';
+
+body {
+  background-color: #1A2C38;
+}
+
+header {
+  padding-right: 20px !important;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}

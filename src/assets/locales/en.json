@@ -1,0 +1,93 @@
+{
+  "en": "EN",
+  "ch": "CH",
+  "betAmount": "Bet Amount",
+  "skipcard": "Skip Card",
+  "betbtn": "Bet",
+  "profithigher": "Profit Higher",
+  "profitlower": "Profit Lower",
+  "totalprofit": "Total Profit",
+  "higherorsame": "Higher or Same",
+  "lowerorsame": "Lower or Same",
+  "higher": "Higher",
+  "same": "Same",
+  "lower": "Lower",
+  "higheror": "Higher or",
+  "loweror": "Lower or",
+  "cashout": "Cash Out",
+  "fairness": {
+    "title": "Fairness",
+    "seed": {
+      "title": "Seeds",
+      "client": "Active Client Seed",
+      "server": "Active Server Seed (Hashed)",
+      "pair": "Total bets made with pair",
+      "rotate": "Rotate Seed Pair",
+      "new": "New Client Seed",
+      "next": "Next Server Seed (Hashed)",
+      "footer": "You need to finish the following game(s) before you can rotate your seed pair: ",
+      "change": "Change"
+    },
+    "verify": {
+      "title": "Verify",
+      "loading": "More inputs are required to verify result",
+      "game": "Game",
+      "client": "Client Seed",
+      "server": "Server Seed",
+      "nonce": "Nonce",
+      "footer": "View Calculation Breakdown"
+    },
+    "copied": "Copied!"
+  },
+  "tooltip": {
+    "setting": "Game Settings",
+    "theatre": "Enable Theatre Mode",
+    "stats": "Open Live Stats",
+    "favour": "Favourite Game",
+    "unfavour": "Unfavourite Game"
+  },
+  "setting": {
+    "instantBet": "Instant Bet",
+    "animations": "Animations",
+    "maxBet": "Max Bet",
+    "gameInfo": "Game Info",
+    "hotKeys": "Hotkeys"
+  },
+  "maxModal": {
+    "title": "Max Bet",
+    "description": "Are you going to enable the max bet button?",
+    "enable": "Enable"
+  },
+  "infoModal": {
+    "title": "Game Info",
+    "rules": "Rules",
+    "rule1": "1.Only roll outcomes that the hit the green area are winners.",
+    "rule2": "2.Players are prohibited from using their own dice."
+  },
+  "hotkey": {
+    "title": "Hotkeys",
+    "makeBet": "Make a Bet",
+    "doubleBetAmt": "Double bet amount",
+    "halveBetAmt": "Halve bet amount",
+    "zeroBetAmt": "Zero bet amount",
+    "higherorsame": "Higher or Same",
+    "lowerorsame": "Lower or Same",
+    "skipcard": "Skip Card",
+    "cashout": "Cashout",
+    "description": "When the hotkeys are enabled, they will remain on for all games until disabled. Despite some games sharing similar key binds, it's always advised to confirm what key interactions are set for each game.",
+    "enable": "Hotkeys Enabled"
+  },
+  "liveStatus": {
+    "title": "Live Stats",
+    "type": {
+      "all": "All",
+      "bets": "Bets",
+      "race": "Race",
+      "hide": "hide"
+    },
+    "profit": "Profit",
+    "wagered": "Wagered",
+    "wins": "Wins",
+    "losses": "Losses"
+  }
+}
